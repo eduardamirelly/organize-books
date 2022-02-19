@@ -1,0 +1,9 @@
+.item-navbar{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #737373;
+}
+
+.item-navbar:hover{
+    color: #379ACC;
+}

@@ -1,0 +1,64 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar .navbar-container a{
+    display: flex;
+    align-items: center;
+}
+.navbar .navbar-container a img{
+    width: 40px;
+}
+.navbar .navbar-container a h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #737373;
+    margin-left: 10px;
+}
+.navbar .navbar-container .menu-icon{
+    font-size: 2rem;
+    color: #737373;
+    display: none;
+    margin-left: 20px;
+}
+
+.navbar .navbar-container .navbar-links{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-container .navbar-links li{
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .navbar-container .navbar-links{
+        display: none;
+    }
+    .navbar .navbar-container .navbar-links.active{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .navbar .navbar-container .navbar-links.active li{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .navbar .navbar-container .menu-icon{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navbar .navbar-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar .navbar-container .menu-icon{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
