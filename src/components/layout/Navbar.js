@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ButtonGreen from './links/ButtonGreen';
-import ItemNavbar from './links/ItemNavbar';
+import ButtonGreen from '../links/ButtonGreen';
+import ItemNavbar from '../links/ItemNavbar';
 import './Navbar.css';
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -24,10 +24,10 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'navbar-links active' : 'navbar-links'}>
                         <li>
-                            <ItemNavbar name='Login' />
+                            <ItemNavbar to="/login" name='Login' />
                         </li>
                         <li>
-                            <ButtonGreen name="SingUp" />
+                            <ButtonGreen to="/register" name="SingUp" />
                         </li>
                     </ul>
                 </div>

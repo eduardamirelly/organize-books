@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function ButtonGreen(props) {
   return (
     <>
-        <Link to='/' className='btn-green'>{props.name}</Link>
+        <Link to={props.to} className='btn-green'>{props.name}</Link>
     </>
   )
 }

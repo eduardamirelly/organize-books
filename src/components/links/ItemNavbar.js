@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function ItemNavbar(props) {
   return (
     <>
-      <Link to='/' className='item-navbar'>{props.name}</Link>
+      <Link to={props.to} className='item-navbar'>{props.name}</Link>
     </>
   )
 }
