@@ -1,8 +1,14 @@
 import React from 'react'
+import FormRegister from '../forms/FormRegister'
 
 function Register() {
   return (
-    <div>Register</div>
+    <>
+      <img className="img-back" src="/images/back-forms.jpg" alt="" />
+      <div className="content-align">
+        <FormRegister />
+      </div>
+    </>
   )
 }
 
