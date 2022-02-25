@@ -4,6 +4,7 @@
     min-height: 100vh;
     padding: 0px 60px;
     padding-top: 35px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 400px){

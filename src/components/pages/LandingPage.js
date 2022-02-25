@@ -5,10 +5,14 @@ import ButtonBlue from '../links/ButtonBlue'
 import './LandingPage.css'
 
 function LandingPage() {
+
+  var menu_btnBg = {'name': 'Sing Up', 'to': '/register'};
+  var menu_links = [{'name': 'Login', 'to': '/login'}];
+
   return (
     <>
       <Container>
-        <Navbar />
+        <Navbar menu_btnBg={menu_btnBg} menu_links={menu_links} />
         <div className='landing-body'>
           <div className='landing-headline'>
             <div className='landing-text'>

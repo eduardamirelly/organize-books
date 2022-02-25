@@ -4,19 +4,6 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.navbar .navbar-container a{
-    display: flex;
-    align-items: center;
-}
-.navbar .navbar-container a img{
-    width: 40px;
-}
-.navbar .navbar-container a h2{
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #737373;
-    margin-left: 10px;
-}
 .navbar .navbar-container .menu-icon{
     font-size: 2rem;
     color: #737373;

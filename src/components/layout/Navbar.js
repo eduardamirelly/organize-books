@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import ButtonGreen from '../links/ButtonGreen';
 import ItemNavbar from '../links/ItemNavbar';
 import './Navbar.css';
 import { FaBars, FaTimes } from "react-icons/fa";
+import LogoLink from './LogoLink';
 
-function Navbar() {
+function Navbar({menu_btnBg, menu_links}) {
 
     const [click, setClick] = useState(false);
 
@@ -15,19 +15,18 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
-                        <img id='logo' src="/images/logo.png" alt="logo" />
-                        <h2>Organize Books</h2>
-                    </Link>
+                    <LogoLink />
                     <div className='menu-icon' onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
                     </div>
                     <ul className={click ? 'navbar-links active' : 'navbar-links'}>
+                        {
+                            menu_links.map(function(obj, index){
+                                return <li><ItemNavbar to={menu_links[index].to} name={menu_links[index].name} /></li>;
+                            })
+                        }
                         <li>
-                            <ItemNavbar to="/login" name='Login' />
-                        </li>
-                        <li>
-                            <ButtonGreen to="/register" name="SingUp" />
+                            <ButtonGreen to={menu_btnBg.to} name={menu_btnBg.name} />
                         </li>
                     </ul>
                 </div>
