@@ -14,7 +14,7 @@
   </a>
 </p>
 
-<p align="center"><em>Vale salientar que esta aplicação web é um projeto de estudo pessoal sobre ReactJS e seus pacotes básicos</em></p>
+<p align="center"><em>Vale salientar que esta aplicação web é um projeto de estudo pessoal sobre ReactJS</em></p>
 
 <p align="center">
     <a href="https://eduardamirelly.github.io/organize-books/">Visualizar Site</a>
