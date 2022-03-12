@@ -4,16 +4,19 @@ import './Form.css'
 
 function Form(props) {
   return (
-    <div className="form-container">
-        <div className="form-logo">
+    <>
+      <div className="content-align">
+        <img className="img-back" src="/images/back-forms.jpg" alt="" />
+        <div className="form-container">
             <LogoLink />
+            <form>
+                <div className="form-body">
+                    {props.children}
+                </div>
+            </form>
         </div>
-        <form>
-            <div className="form-body">
-                {props.children}
-            </div>
-        </form>
-    </div>
+      </div>
+    </>
   )
 }
 
