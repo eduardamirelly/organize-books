@@ -29,7 +29,9 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        min-height: 100px;
         align-items: flex-start;
+        justify-content: space-around;
     }
     .navbar .navbar-container .navbar-links.active li{
         margin-left: 0px;
