@@ -6,11 +6,11 @@
     box-sizing: border-box;
     font-family: 'Montserrat', 'Open Sans';
 }
-body{
-    max-width: 1500px;
+body, html{
     min-width: 100%;
     min-height: 100vh;
     background-color: #F2F2F2;
+    position: relative;
 }
 a{
     text-decoration: none;

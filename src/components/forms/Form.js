@@ -7,7 +7,6 @@ function Form(props) {
     <>
       <img className="img-back" src="/images/back-forms.jpg" alt="" />
       <div className="content-align">
-        
         <div className="form-container">
             <LogoLink />
             <form>

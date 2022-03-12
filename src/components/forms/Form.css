@@ -19,8 +19,9 @@ form{
 .img-back{
     position: absolute;
     min-height: 100vh;
+    height: 100%;
     width: 100%;
-    z-index: -10;
+    z-index: 0;
     top: 0;
     bottom: 0;
 }
@@ -30,6 +31,7 @@ form{
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
+    z-index: 10;
 }
 @media screen and (max-width: 300px) {
     .content-align{
@@ -38,16 +40,5 @@ form{
     .form-container{
         padding: 30px;
         min-width: 200px;
-    }
-}
-@media screen and (max-height: 450px){
-    .img-back{
-        min-height: 100vh;
-    }
-}
-
-@media screen and (min-height: 450px){
-    .img-back{
-        height: 100%;
     }
 }
