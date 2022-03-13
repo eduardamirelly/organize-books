@@ -1,0 +1,16 @@
+.name-status{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #737373;
+}
+
+.count-status{
+    color: #65C2A5;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.space-component{
+    padding: 20px 0px;
+    margin: 30px;
+}

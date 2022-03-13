@@ -1,0 +1,14 @@
+.title-block{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #737373;
+}
+.see-more-block{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #737373;
+    text-decoration: underline;
+}
+.see-more-block:hover{
+    opacity: .8;
+}
