@@ -10,7 +10,7 @@
     <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/eduardamirelly/organize-books?color=blue">
   </a>
   <a aria-label="last commit" href="https://github.com/eduardamirelly/organize-books/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eduardamirelly/septandara-website?color=blue">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eduardamirelly/organize-books?color=blue">
   </a>
 </p>
 
