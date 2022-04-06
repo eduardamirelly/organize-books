@@ -1,5 +1,6 @@
 import React from 'react'
 import './BookBlock.css'
+import ButtonGray from '../links/ButtonGray'
 
 function BookBlock(props) {
   return (
@@ -14,8 +15,9 @@ function BookBlock(props) {
             <div className="circle"></div>
             <p>Status</p>
         </div>
-        <div className="">
-            
+        <div className="block-horizontal-between">
+            <ButtonGray to="/" name="Editar" />
+            <ButtonGray to="/" name="Excluir" />
         </div>
     </div>
   )

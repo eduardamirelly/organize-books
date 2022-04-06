@@ -2,11 +2,11 @@ import React from 'react'
 import Navbar from '../layout/Navbar'
 import Container from '../layout/Container'
 import StatusCount from '../layout/StatusCount'
-import './Home.css'
+import './HomeBooks.css'
 import HeaderBlock from '../layout/HeaderBlock'
 import BookBlock from '../layout/BookBlock'
 
-function Home() {
+function HomeBooks() {
 
   var menu_btnBg = {'name': 'Logout', 'to': '/'};
   var menu_links = [{'name': 'Livros', 'to': '/'}, {'name': 'Autores', 'to': '/'}, {'name': 'Perfil', 'to': '/'}];
@@ -30,4 +30,4 @@ function Home() {
   )
 }
 
-export default Home
+export default HomeBooks
